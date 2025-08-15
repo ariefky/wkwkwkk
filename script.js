@@ -5,7 +5,7 @@ function submitNama() {
   const input = document.getElementById('namaKontak');
   kontak = input.value.trim();
   localStorage.setItem('kontak', kontak);
-  window.location.href = 'perasaan.html';
+  window.location.href = 'teks1.html';
 }
 
 // Mengaktifkan tombol jika input tidak kosong
@@ -45,5 +45,6 @@ function submitJawaban(jawaban) {
     window.location.href = 'gpp.html';
   }
 }
+
 
 
