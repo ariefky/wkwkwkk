@@ -1,4 +1,4 @@
-let kontak = "";
+asalet kontak = "";
 
 // Fungsi untuk menyimpan nama dan pindah ke teks1.html
 function submitNama() {
@@ -45,6 +45,7 @@ function submitJawaban(jawaban) {
     window.location.href = 'gpp.html';
   }
 }
+
 
 
 
